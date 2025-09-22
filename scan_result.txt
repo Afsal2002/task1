@@ -1,0 +1,45 @@
+# Nmap 7.94SVN scan initiated Mon Sep 22 11:53:08 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_result.txt 192.168.31.205/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0091s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address:  (Unknown)
+
+Nmap scan report for MSI.lan (192.168.31.64)
+Host is up (0.0072s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address:  (Intel Corporate)
+
+Nmap scan report for kali-1.lan (192.168.31.93)
+Host is up (0.020s latency).
+All 1000 scanned ports on kali-1.lan (192.168.31.93) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address:  (Intel Corporate)
+
+Nmap scan report for OPPO-A16k.lan (192.168.31.119)
+Host is up (0.013s latency).
+All 1000 scanned ports on OPPO-A16k.lan (192.168.31.119) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address:  (Unknown)
+
+Nmap scan report for I2302.lan (192.168.31.221)
+Host is up (0.18s latency).
+All 1000 scanned ports on I2302.lan (192.168.31.221) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address:  (Unknown)
+
+Nmap scan report for kali.lan (192.168.31.205)
+Host is up (0.0000080s latency).
+All 1000 scanned ports on kali.lan (192.168.31.205) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Sep 22 12:05:34 2025 -- 256 IP addresses (6 hosts up) scanned in 745.58 seconds

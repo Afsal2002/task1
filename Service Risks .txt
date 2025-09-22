@@ -1,0 +1,12 @@
+
+53/tcp	-DNS (domain)-	If it’s exposed, could be abused for DNS amplification attacks or misconfigured to allow zone transfers (data leakage).
+
+80/tcp	-HTTP-	Traffic is unencrypted → vulnerable to MITM attacks, weak web apps, outdated CMS/software.
+
+443/tcp	-HTTPS-	Safer, but risks if using weak SSL/TLS ciphers, expired certificates, or vulnerable web frameworks.
+
+7443/tcp	-Oracle Application Server HTTPS-	Often used by Oracle middleware; risks include default credentials or unpatched Oracle exploits.
+
+8080/tcp	-HTTP Proxy-	Common for admin panels / web servers. Could expose management consoles if left unauthenticated.
+
+8443/tcp	-HTTPS-Alt-	Often alternate admin consoles (Tomcat, JBoss, etc.). If weakly configured, could allow remote code execution.
